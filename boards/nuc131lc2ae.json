@@ -1,0 +1,19 @@
+{
+  "build": {
+    "core": "nuvoton",
+    "cpu": "cortex-m0",
+    "f_cpu": "50000000L",
+    "mcu": "nuc131lc2ae",
+    "variant": "nuc131"
+  },
+  "frameworks": ["nuvoton"],
+  "name": "Nuvoton NUC131LC2AE",
+  "platform": "nuvoton_nuc131",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_flash_size": 65536,
+    "protocol": "cmsis-dap"
+  },
+  "url": "https://www.nuvoton.com/products/microcontrollers/arm-cortex-m0-mcus/nuc131-series/",
+  "vendor": "Nuvoton"
+}
